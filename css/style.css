@@ -1,0 +1,358 @@
+body{
+    background-color: pink;
+    font-family: 'Irish Grover', cursive;
+}
+
+nav{
+  font-family: 'Mochiy Pop One', sans-serif; 
+}
+
+ h1{
+
+    font: 30px bold hotpink;
+}
+
+
+  .skip a{
+    background: #f1f1f1;
+    left: 0;
+    z-index: 1;
+    position: absolute;
+    top: -40px;
+    transition: top 1s ease-out;
+    -webkit-transition: top 1s ease-out;
+    padding: 6px;
+}
+
+.skip a:focus{
+    position: absolute;
+    top: 20px;
+}
+
+
+a:active {
+  color: blue;
+  font-family: 'Luckiest Guy', cursive;
+  ;
+
+}
+
+header{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+nav{
+  display: flex;
+  flex-wrap: nowrap;
+    color:wheat;
+    background-color: yellowgreen;
+    padding: 5px 0;    
+    text-align: right;   
+    width: 100%;
+    border-radius: 7px;;
+    /* border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px; */
+    /* align-items: baseline; */
+    align-content: flex-end;
+    margin-bottom: 10px;
+
+  }
+
+  nav ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+
+    
+  }
+
+  nav li{
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 25px;
+    display: inline;
+    padding-right: 100px;
+
+  }
+  
+
+
+#sweater{
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+#sunnies{
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+#crop{
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+
+.card{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 110px;
+    width: 75%;
+    justify-content: space-between;
+    /* align-items: flex-end; */
+    background: greenyellow;
+    border: solid 2px  magenta;
+    padding-top: 3px;
+    /* padding-bottom: 10px; */
+    /* border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px; */
+}
+
+.blue{
+  background: aliceblue;
+  text-align: center;
+  color: purple;
+  font-weight: bold;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-bottom: 3px;
+}
+
+.yellow{
+  background: lightcyan;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 3px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.pink{
+  background: paleturquoise;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 3px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+
+.gallery{
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.gallery img{
+    border: 10px  magenta solid;
+    margin: 10px;
+    width: 300px;
+}
+
+#britneylove{
+  text-align: center;
+}
+
+.britney_inspo{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 450px;
+    justify-content: space-between;
+    /* align-items: flex-end; */
+    background: greenyellow;
+    border: solid 2px  magenta;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  border-radius: 7px;  
+}
+
+.grid {
+  margin-top: 10px;
+    /* border: 2px magenta solid; */
+    height: 450px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 250px 100px;
+    grid-row-gap: 10px;
+    grid-column-gap: 4px;
+  }
+  
+  .box {
+    /* background-color: beige; */
+    color: black;
+    border-radius: 5px;
+    /* border: 2px magenta solid; */
+  }
+
+
+  .one {
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    overflow: scroll;
+  }
+
+  .two{
+    grid-column-start: 3;
+    grid-column-end: span 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    overflow: scroll;
+
+  }
+  .three{
+    grid-column-start: 1;
+    grid-column-end: span 5;
+    background-color: aliceblue;
+    text-align: center;
+    color: navy;
+    overflow: scroll;
+  }
+
+  .grid2 {
+    margin-top: 5px;
+      /* border: 2px magenta solid; */
+      height: 450px;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 100px 100px 100px 100px;
+      grid-template-rows: 250px 100px;
+      grid-row-gap: 10px;
+      grid-column-gap: 4px;
+    }
+    
+    .onemore {
+      grid-column-start: 1;
+      grid-column-end: span 2;
+      grid-row-start: 1;
+      grid-row-end: 2;
+      overflow: scroll;
+    }
+  
+    .twomore{
+      grid-column-start: 3;
+      grid-column-end: span 4;
+      grid-row-start: 1;
+      grid-row-end: 2;
+      overflow: scroll;
+  
+    }
+    .threemore{
+      grid-column-start: 1;
+      grid-column-end: span 5;
+      background-color: aliceblue;
+      text-align: center;
+      color: navy;
+      overflow: scroll;
+    }
+
+  .image_gallery{
+    border: 2px magenta solid;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  footer{
+    background-color: turquoise;
+    display: flex;
+    align-content: center;
+    align-items: center;
+  }
+
+  #logo{
+    /* margin-left: auto; */
+    margin-right: auto;
+
+  }
+  #logo2{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .britney_links{
+    display: flex;
+    /* justify-content: center; */
+    /* margin-left: auto;
+    margin-right: auto; */
+  }
+
+
+  .sotw {
+    display: flex;
+    padding-bottom: 20px;
+  }
+  
+  .column {
+    flex: 50%;
+  }
+
+  .top_track{
+    text-align: center;
+  }
+
+  .top_track h1{
+    font-family:'Cabin Sketch', cursive;
+
+  }
+
+  .playlist {
+    display: flex;
+    padding-bottom: 20px;
+  }
+  
+  .column2 {
+    flex: 50%;
+  }
+
+  .text{
+    border:skyblue 5px solid;
+    background: violet;
+    border-radius: 5px;
+    text-align: center;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 20px;
+    color:whitesmoke;
+    font-family: 'Dongle', sans-serif;
+  }
+
+
+  .playlist2 {
+    display: flex;
+    padding-bottom: 20px;
+  }
+  
+  .column3 {
+    flex: 50%;
+  }
+
+  .playlist4{
+    display: flex;
+    padding-bottom: 20px;
+  }
+  
+  .column4 {
+    flex: 50%;
+  }
